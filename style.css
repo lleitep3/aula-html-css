@@ -1,0 +1,47 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+
+  font-size: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.left-side,
+.right-side {
+  display: inline-block;
+  height: 100vh;
+}
+
+.left-side {
+  background: #e1d8cf;
+  width: 30%;
+  max-width: 160px;
+  padding: 15px;
+}
+
+.avatar {
+  height: 100px;
+  border-radius: 50%;
+  margin: 15px auto 0;
+}
+
+.avatar img {
+  display: inline-block;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.info-box h2 {
+  background: #373741;
+  color: #ddd8d2;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.info-box p {
+  font-size: .7rem;
+  padding: 4px;
+}
